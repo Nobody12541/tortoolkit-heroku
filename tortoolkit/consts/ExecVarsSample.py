@@ -5,20 +5,20 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "e87d681c584f5431ee973eb89f785fad"
+        API_ID = 13234634
+        BOT_TOKEN = "5269528449:AAFJJzTXI24bf8fjO7UQLL323036GWCtx78"
+        BASE_URL_OF_BOT = "https://arasingh.arasingh.workers.dev/0"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
-        OWNER_ID = 0
+        ALD_USR = [-1001596197125,-1001771293049,-1001683937603,-1001753157424,880179209]
+        OWNER_ID = 1966561412
         
         # Google Drive Index Link should include the base dir also See readme for more info
-        GD_INDEX_URL = False
+        GD_INDEX_URL = "https://arasingh.arasingh.workers.dev/"
 
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 40
@@ -36,7 +36,7 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        DB_URI = "dbname=andrew user=sunny password=123456@ host=0.0.0.0 port=5432"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
@@ -75,7 +75,7 @@ except:
         STATUS_DEL_TOUT = 20
 
         # Allow the user settings to be accessed in private
-        USETTINGS_IN_PRIVATE = False
+        USETTINGS_IN_PRIVATE = True
 
         # Torrent max time to collect metadata in seconds
         TOR_MAX_TOUT = 180
